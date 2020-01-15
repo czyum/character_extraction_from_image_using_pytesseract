@@ -10,7 +10,6 @@ __author__="https://github.com/czyum"
 app_path = os.path.dirname(os.path.abspath(__file__))
 #Define functions for processing post requests on home route
 @app.route("/",methods=["POST","GET"])  
-#
 def index():
     if request.method=="POST":
         route = os.path.join(app_path, 'static\images\\upload\\')
