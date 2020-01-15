@@ -15,6 +15,9 @@ All the packages/modules imported in the beginning:
 
 pytesseract,os,shutil,werkzeug,flask,pillow(pip install flask,pytesseract,........)
 
+Note
+----
+Read https://pypi.org/project/pytesseract for usage of methods and different languages
 
 Author
 ----
