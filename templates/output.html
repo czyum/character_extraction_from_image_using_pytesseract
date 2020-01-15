@@ -1,0 +1,20 @@
+{%extends "base.html"%}
+{% block body %}
+<div id='image' style="height: 75%;">
+    <h3>Image uploded </h3><br>
+    <img src="{{url_for('static',filename='images/upload/')}}{{name}}" alt="uploded_image">
+
+</div>
+<div>
+    <h3>Recognized text</h3><br>
+<div id='text' style="height: 75%;">
+    
+<p id="text_recognized">{{text}}</p>
+<button onclick="CopyToClipboard('text_recognized')">Copy text</button>
+</div>
+</div>
+
+
+
+
+{% endblock %}

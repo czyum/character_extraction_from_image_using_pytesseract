@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Optical Character recognition</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/styles.css')}}">
+</head>
+
+<nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand" style="color:darkslategrey;">Recognize characters in an image</p>
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+         
+          <li id="home"><a style="color:azure;"href="/">HOME</a></li>
+          
+          
+        </ul>
+    </div>
+  </nav>
+
+
+<body >
+  <hr>
+
+  {%block body%}
+
+  {%endblock%}
+  <script src="/static/js/button.js"></script>
+</body>
+
+</html>
