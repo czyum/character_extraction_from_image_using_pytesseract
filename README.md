@@ -17,7 +17,7 @@ pytesseract,os,shutil,werkzeug,flask,pillow(pip install flask,pytesseract,......
 
 Note
 ----
-Read https://pypi.org/project/pytesseract for usage of methods and different languages
+Read https://pypi.org/project/pytesseract for usage of methods and different languages(you get better output if you pass on the language parameter)
 
 Author
 ----
